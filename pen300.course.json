@@ -1,0 +1,2262 @@
+{
+    "modules": [
+        {
+            "title": "Copyright",
+            "path": "media/video/COPY_00_00.mp4",
+            "caption": "",
+            "tags": [
+                "",
+                ""
+            ],
+            "subModules" : [
+            ]
+        },
+        {
+          "title": "Client Side Code Execution With Office ",
+          "path": "media/video/CSCEO_00_00.mp4",
+          "caption": "media/captions/CSCEO_00_00.vtt",
+           "tags": [
+                "client side", "code execution", "office", "Social Engineering", "Phishing"
+           ],
+            "subModules" : [
+                {
+                "title": "Will You Be My Dropper",
+                "path": "media/video/CSCEO_01_00.mp4",
+                "caption": "media/captions/CSCEO_01_00.vtt",
+                "tags": [
+                    "dropper", "Trojan", "Implant", "Agent"
+                ],
+                "subSections" : [
+                    {
+                    "title": "Staged vs Non-staged Payloads",
+                    "path": "media/video/CSCEO_01_01.mp4",
+                    "caption": "media/captions/CSCEO_01_01.vtt",
+                      "tags": [
+                        "staged", "non-staged", "payloads"
+                      ]
+                    },
+                  {
+                    "title": "Building Our Droppers",
+                    "path": "media/video/CSCEO_01_02.mp4",
+                    "caption": "media/captions/CSCEO_01_02.vtt",
+                    "tags": [
+                      "dropper"
+                    ]
+                  },
+                    {
+                      "title": "HTML Smuggling",
+                      "path": "media/video/CSCEO_01_03.mp4",
+                      "caption": "media/captions/CSCEO_01_03.vtt",
+                      "tags": [
+                        "HTML smuggling", "download attribute", "blob", "createObjectURL", "createElement", "tagName", "appendChild"
+                      ]
+                    }
+                ]
+                },
+              {
+                "title": "Phishing with Microsoft Office",
+                "path": "media/video/CSCEO_02_00.mp4",
+                "caption": "media/captions/CSCEO_02_00.vtt",
+                "tags": [
+                  "phishing", "office", "vba"
+                ],
+                "subSections": [
+                  {
+                    "title": "Introduction to VBA",
+                    "path": "media/video/CSCEO_02_01.mp4",
+                    "caption": "media/captions/CSCEO_02_01.vtt",
+                    "tags": [
+                      "vba", "Windows Script Host", "macro", "MsgBox", "Document_Open", "AutoOpen", "Workbook_Open", "Trust Center", "Protected View", "WindowStyle", "vbHide", "CreateObject"
+                    ]
+                  },
+                  {
+                    "title": "Let PowerShell Help Us",
+                    "path": "media/video/CSCEO_02_02.mp4",
+                    "caption": "media/captions/CSCEO_02_02.vtt",
+                    "tags": [
+                      "PowerShell", "WebClient", "DownloadFile", "ActiveDocument", "DateAdd"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Keeping Up Appearances",
+                "path": "media/video/CSCEO_03_00.mp4",
+                "caption": "media/captions/CSCEO_03_00.vtt",
+                "tags": [
+                  "pretexting", "phishing"
+                ],
+                "subSections": [
+                  {
+                    "title": "Phishing PreTexting",
+                    "path": "media/video/CSCEO_03_01.mp4",
+                    "caption": "media/captions/CSCEO_03_01.vtt",
+                    "tags": [
+                      "phishing", "pretexting"
+                    ]
+                  },
+                  {
+                    "title": "The Old Switcheroo",
+                    "path": "media/video/CSCEO_03_02.mp4",
+                    "caption": "media/captions/CSCEO_03_02.vtt",
+                    "tags": [
+                      "switch", "phishing", "macro", "AutoText", "ActiveDocument", "AttachedTemplate"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Executing Shellcode in Word Memory",
+                "path": "media/video/CSCEO_04_00.mp4",
+                "caption": "media/captions/CSCEO_04_00.vtt",
+                "tags": [
+                  "shellcode", "word"
+                ],
+                "subSections": [
+                  {
+                    "title": "Calling Win32 APIs from VBA",
+                    "path": "media/video/CSCEO_04_01.mp4",
+                    "caption": "media/captions/CSCEO_04_01.vtt",
+                    "tags": [
+                      "win32 api", "vba", "GetUserName", "macro"
+                    ]
+                  },
+                  {
+                    "title": "VBA Shellcode Runner",
+                    "path": "media/video/CSCEO_04_02.mp4",
+                    "caption": "media/captions/CSCEO_04_02.vtt",
+                    "tags": [
+                      "vba", "runner", "VirtualAlloc", "RtlMoveMemory", "CreateThread"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "PowerShell Shellcode Runner",
+                "path": "media/video/CSCEO_05_00.mp4",
+                "caption": "media/captions/CSCEO_05_00.vtt",
+                "tags": [
+                  "powershell", "runner", "DownloadString", "WebClient"
+                ],
+                "subSections": [
+                  {
+                    "title": "Calling Win32 APIs from PowerShell",
+                    "path": "media/video/CSCEO_05_01.mp4",
+                    "caption": "media/captions/CSCEO_05_01.vtt",
+                    "tags": [
+                      "win32 api", "powershell", "DllImportAttribute", "PInvoke", "MessageBox", "InteropServices", "Add-Type"
+                    ]
+                  },
+                  {
+                    "title": "Porting Shellcode Runner to PowerShell",
+                    "path": "media/video/CSCEO_05_02.mp4",
+                    "caption": "media/captions/CSCEO_05_02.vtt",
+                    "tags": [
+                      "porting", "runner", "powershell", "VirtualAlloc", "CreateThread", "InteropServices.Marshal", "macro", "download cradle", "Net.WebClient", "WaitForSingleObject"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Keep That PowerShell in Memory",
+                "path": "media/video/CSCEO_06_00.mp4",
+                "caption": "media/captions/CSCEO_06_00.vtt",
+                "tags": [
+                  "reflection", "powershell"
+                ],
+                "subSections": [
+                  {
+                    "title": "Add-Type Compilation",
+                    "path": "media/video/CSCEO_06_01.mp4",
+                    "caption": "media/captions/CSCEO_06_01.vtt",
+                    "tags": [
+                      "add-type", "compilation", "csc", "Command-Line Compiler", "MessageBox", "GetAssemblies", "CurrentDomain", "AppDomain"
+                    ]
+                  },
+                  {
+                    "title": "Leveraging UnsafeNativeMethods",
+                    "path": "media/video/CSCEO_06_02.mp4",
+                    "caption": "media/captions/CSCEO_06_02.vtt",
+                    "tags": [
+                      "UnsafeNativeMethods", "runner", "GetModuleHandle", "GetProcAddress", "GetAssemblies", "GlobalAssemblyCache", "reflection", "GetMethod"
+                    ]
+                  },
+                  {
+                    "title": "DelegateType Reflection",
+                    "path": "media/video/CSCEO_06_03.mp4",
+                    "caption": "media/captions/CSCEO_06_03.vtt",
+                    "tags": [
+                      "delegatetype", "reflection", "GetDelegateForFunctionPointer", "MessageBox", "AssemblyName", "DefineDynamicAssembly", "Emit.AssemblyBuilderAccess", "DefineDynamicModule", "DefineType", "MulticastDelegate", "DefineConstructor", "SetImplementationFlags", "DefineMethod", "CreateType"
+                    ]
+                  },
+                  {
+                    "title": "Reflection Shellcode Runner in PowerShell",
+                    "path": "media/video/CSCEO_06_04.mp4",
+                    "caption": "media/captions/CSCEO_06_04.vtt",
+                    "tags": [
+                      "Reflection", "runner", "powershell", "VirtualAlloc", "CreateThread", "WaitForSingleObject", "GetDelegateForFunctionPointer"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Talking To The Proxy",
+                "path": "media/video/CSCEO_07_00.mp4",
+                "caption": "media/captions/CSCEO_07_00.vtt",
+                "tags": [
+                  "proxy", "powershell"
+                ],
+                "subSections": [
+                  {
+                    "title": "PowerShell Proxy-Aware Communication",
+                    "path": "media/video/CSCEO_07_01.mp4",
+                    "caption": "media/captions/CSCEO_07_01.vtt",
+                    "tags": [
+                      "powershell", "proxy", "WebClient", "DefaultWebProxy", "GetProxy"
+                    ]
+                  },
+                  {
+                    "title": "Fiddling With The User-Agent",
+                    "path": "media/video/CSCEO_07_02.mp4",
+                    "caption": "media/captions/CSCEO_07_02.vtt",
+                    "tags": [
+                      "user-agent", "Net.WebClient", "cradle", "headers"
+                    ]
+                  },
+                  {
+                    "title": "Give Me A SYSTEM Proxy",
+                    "path": "media/video/CSCEO_07_03.mp4",
+                    "caption": "media/captions/CSCEO_07_03.vtt",
+                    "tags": [
+                      "proxy", "system", "Net.WebClient", "Get-ItemProperty", "WebProxy", "runner"
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Wrapping Up",
+                "path": "media/video/CSCEO_08_00.mp4",
+                "caption": "media/captions/CSCEO_08_00.vtt",
+                "tags": [
+                  ""
+                ]
+              }
+            ]
+        },
+    {
+      "title": "Client Side Code Execution With Windows Script Host",
+      "path": "media/video/CSCEJ_00_00.mp4",
+      "caption": "media/captions/CSCEJ_00_00.vtt",
+      "tags": [
+        "client side", "code execution", "windows script host", "Jscript"
+      ],
+      "subModules": [
+        {
+          "title": "Creating a Basic Dropper in Jscript",
+          "path": "media/video/CSCEJ_01_00.mp4",
+          "caption": "media/captions/CSCEJ_01_00.vtt",
+          "tags": [
+            "dropper", "jscipt"
+          ],
+          "subSections": [
+            {
+              "title": "Execution of Jscript on Windows",
+              "path": "media/video/CSCEJ_01_01.mp4",
+              "caption": "media/captions/CSCEJ_01_01.vtt",
+              "tags": [
+                "jscript", "phishing", "ActiveX", "WScript.Shell"
+              ]
+            },
+            {
+              "title": "Jscript Meterpreter Dropper",
+              "path": "media/video/CSCEJ_01_02.mp4",
+              "caption": "media/captions/CSCEJ_01_02.vtt",
+              "tags": [
+                "jscript", "meterpreter", "dropper", "XMLHTTP", "CreateObject", "ADODB.Stream", "SaveToFile"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Jscript and C#",
+          "path": "media/video/CSCEJ_02_00.mp4",
+          "caption": "media/captions/CSCEJ_02_00.vtt",
+          "tags": [
+            "jscript", "c#"
+          ],
+          "subSections": [
+            {
+              "title": "Introduction to Visual Studio",
+              "path": "media/video/CSCEJ_02_01.mp4",
+              "caption": "media/captions/CSCEJ_02_01.vtt",
+              "tags": [
+                "visual studio", "Samba", "smb.conf", "smbpasswd", "Console.WriteLine"
+              ]
+            },
+            {
+              "title": "DotNetToJscript",
+              "path": "media/video/CSCEJ_02_02.mp4",
+              "caption": "media/captions/CSCEJ_02_02.vtt",
+              "tags": [
+                "DotNetToJscript", "dotnet", "jscript", "MessageBox", "BinaryFormatter", "Deserialize", "DynamicInvoke", "CreateInstance"
+              ]
+            },
+            {
+              "title": "Win32 API Calls From C#",
+              "path": "media/video/CSCEJ_02_03.mp4",
+              "caption": "media/captions/CSCEJ_02_03.vtt",
+              "tags": [
+                "win32 api", "c#", "DllImport", "MessageBox", "pinvoke", "Runtime.InteropServices"
+              ]
+            },
+            {
+              "title": "Shellcode Runner in C#",
+              "path": "media/video/CSCEJ_02_04.mp4",
+              "caption": "media/captions/CSCEJ_02_04.vtt",
+              "tags": [
+                "runner", "c#", "VirtualAlloc", "CreateThread", "WaitForSingleObject", "InteropServices.Marshal"
+              ]
+            },
+            {
+              "title": "Jscript Shellcode Runner",
+              "path": "media/video/CSCEJ_02_05.mp4",
+              "caption": "media/captions/CSCEJ_02_05.vtt",
+              "tags": [
+                "jscript", "runner", "DotNetToJscript", "DllImport"
+              ]
+            },
+            {
+              "title": "SharpShooter",
+              "path": "media/video/CSCEJ_02_06.mp4",
+              "caption": "media/captions/CSCEJ_02_06.vtt",
+              "tags": [
+                "c#", "sharpshooter"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In-memory PowerShell Revisited",
+          "path": "media/video/CSCEJ_03_00.mp4",
+          "caption": "media/captions/CSCEJ_03_00.vtt",
+          "tags": [
+            "in-memory", "powershell"
+          ],
+          "subSections": [
+            {
+              "title": "Reflective Load",
+              "path": "media/video/CSCEJ_03_01.mp4",
+              "caption": "media/captions/CSCEJ_03_01.vtt",
+              "tags": [
+                "reflection", "load", "c#", "LoadFile", "DownloadData", "Net.WebClient"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wrapping Up",
+          "path": "media/video/CSCEJ_04_00.mp4",
+          "caption": "media/captions/CSCEJ_04_00.vtt",
+          "tags": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Process Injection and Migration",
+      "path": "media/video/PIM_00_00.mp4",
+      "caption": "media/captions/PIM_00_00.vtt",
+      "tags": [
+        "injection", "migration", "process"
+      ],
+      "subModules": [
+        {
+          "title": "Finding a Home for Our Shellcode",
+          "path": "media/video/PIM_01_00.mp4",
+          "caption": "media/captions/PIM_01_00.vtt",
+          "tags": [
+            "shellcode"
+          ],
+          "subSections": [
+            {
+              "title": "Process Injection and Migration Theory",
+              "path": "media/video/PIM_01_01.mp4",
+              "caption": "media/captions/PIM_01_01.vtt",
+              "tags": [
+                "injection", "migration", "theory", "OpenProcess", "VirtualAlloc", "WriteProcessMemory", "CreateRemoteThread", "Integrity level", "RtlMoveMemory", "CreateThread"
+              ]
+            },
+            {
+              "title": "Process Injection in C#",
+              "path": "media/video/PIM_01_02.mp4",
+              "caption": "media/captions/PIM_01_02.vtt",
+              "tags": [
+                "process injection", "c#", "OpenProcess", "Runtime.InteropServices", "VirtualAlloc", "WriteProcessMemory", "CreateRemoteThread"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DLL Injection",
+          "path": "media/video/PIM_02_00.mp4",
+          "caption": "media/captions/PIM_02_00.vtt",
+          "tags": [
+            "dll injection"
+          ],
+          "subSections": [
+            {
+              "title": "DLL Injection Theory",
+              "path": "media/video/PIM_02_01.mp4",
+              "caption": "media/captions/PIM_02_01.vtt",
+              "tags": [
+                "dll injection", "LoadLibrary", "theory", "CreateRemoteThread", "GetProcAddress"
+              ]
+            },
+            {
+              "title": "DLL Injection with C#",
+              "path": "media/video/PIM_02_02.mp4",
+              "caption": "media/captions/PIM_02_02.vtt",
+              "tags": [
+                "C#", "dll injection", "LoadLibrary", "OpenProcess", "VirtualAlloc", "WriteProcessMemory", "GetModuleHandle", "GetProcAddress", "CreateRemoteThread"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Reflective DLL Injection",
+          "path": "media/video/PIM_03_00.mp4",
+          "caption": "media/captions/PIM_03_00.vtt",
+          "tags": [
+            "reflective", "dll injection"
+          ],
+          "subSections": [
+            {
+              "title": "Reflective DLL Injection Theory",
+              "path": "media/video/PIM_03_01.mp4",
+              "caption": "media/captions/PIM_03_01.vtt",
+              "tags": [
+                "reflective", "dll injection", "theory", "LoadLibrary", "GetProcAddress"
+              ]
+            },
+            {
+              "title": "Reflective DLL Injection in PowerShell",
+              "path": "media/video/PIM_03_02.mp4",
+              "caption": "media/captions/PIM_03_02.vtt",
+              "tags": [
+                "reflective", "dll injection", "powershell", "DownloadData", "Net.WebClient", "Invoke-ReflectivePEInjection"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Process Hollowing",
+          "path": "media/video/PIM_04_00.mp4",
+          "caption": "media/captions/PIM_04_00.vtt",
+          "tags": [
+            "process hollowing"
+          ],
+          "subSections": [
+            {
+              "title": "Process Hollowing Theory",
+              "path": "media/video/PIM_04_01.mp4",
+              "caption": "media/captions/PIM_04_01.vtt",
+              "tags": [
+                "process hollowing", "theory", "CREATE_SUSPENDED", "CreateProcess", "ZwQueryInformationProcess", "ProcessInformationClass", "ProcessBasicInformation", "ReadProcessMemory", "WriteProcessMemory", "RVA", "PEB", "TEB"
+              ]
+            },
+            {
+              "title": "Process Hollowing in C#",
+              "path": "media/video/PIM_04_02.mp4",
+              "caption": "media/captions/PIM_04_02.vtt",
+              "tags": [
+                "process hollowing", "c#", "CreateProcessW", "System.Threading", "STARTUPINFO", "ZwQueryInformationProcess", "ProcessBasicInformation", "ReadProcessMemory", "WriteProcessMemory", "BitConverter.ToInt64", "e_lfanew", "ResumeThread"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wrapping Up",
+          "path": "media/video/PIM_05_00.mp4",
+          "caption": "media/captions/PIM_05_00.vtt",
+          "tags": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Introduction to Antivirus Evasion",
+      "path": "media/video/AVINTRO_00_00.mp4",
+      "caption": "media/captions/AVINTRO_00_00.vtt",
+      "tags": [
+        "av", "antivirus", "evasion"
+      ],
+      "subModules": [
+        {
+          "title": "Antivirus Software Overview",
+          "path": "media/video/AVINTRO_01_00.mp4",
+          "caption": "media/captions/AVINTRO_01_00.vtt",
+          "tags": [
+            "antivirus"
+          ]
+        },
+        {
+          "title": "Simulating the Target Environment",
+          "path": "media/video/AVINTRO_02_00.mp4",
+          "caption": "media/captions/AVINTRO_02_00.vtt",
+          "tags": [
+            "antivirus"
+          ]
+        },
+        {
+          "title": "Locating Signatures in Files",
+          "path": "media/video/AVINTRO_03_00.mp4",
+          "caption": "media/captions/AVINTRO_03_00.vtt",
+          "tags": [
+            "signatures", "Find-AVSignature", "clam"
+          ]
+        },
+        {
+          "title": "Bypassing Antivirus with Metasploit",
+          "path": "media/video/AVINTRO_04_00.mp4",
+          "caption": "media/captions/AVINTRO_04_00.vtt",
+          "tags": [
+            "antivirus", "metasploit"
+          ],
+          "subSections": [
+            {
+              "title": "Metasploit Encoders",
+              "path": "media/video/AVINTRO_04_01.mp4",
+              "caption": "media/captions/AVINTRO_04_01.vtt",
+              "tags": [
+                "metasploit", "encoders", "shikata_ga_nai", "zutto_dekiru"
+              ]
+            },
+            {
+              "title": "Metasploit Encryptors",
+              "path": "media/video/AVINTRO_04_02.mp4",
+              "caption": "media/captions/AVINTRO_04_02.vtt",
+              "tags": [
+                "metasploit", "encryptors"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bypassing Antivirus with C#",
+          "path": "media/video/AVINTRO_05_00.mp4",
+          "caption": "media/captions/AVINTRO_05_00.vtt",
+          "tags": [
+            "antivirus", "c#"
+          ],
+          "subSections": [
+            {
+              "title": "C# Shellcode Runner vs Antivirus",
+              "path": "media/video/AVINTRO_05_01.mp4",
+              "caption": "media/captions/AVINTRO_05_01.vtt",
+              "tags": [
+                "c#", "shellcode", "runner", "antivirus", "AntiScan.Me"
+              ]
+            },
+            {
+              "title": "Encrypting the C# Shellcode Runner",
+              "path": "media/video/AVINTRO_05_02.mp4",
+              "caption": "media/captions/AVINTRO_05_02.vtt",
+              "tags": [
+                "encrypt", "c#", "shellcode", "runner", "Caesar", "StringBuilder", "AppendFormat", "obfuscation"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Messing with Our Behavior",
+          "path": "media/video/AVINTRO_06_00.mp4",
+          "caption": "media/captions/AVINTRO_06_00.vtt",
+          "tags": [
+            "behavior"
+          ],
+          "subSections": [
+            {
+              "title": "Simple Sleep Timers",
+              "path": "media/video/AVINTRO_06_01.mp4",
+              "caption": "media/captions/AVINTRO_06_01.vtt",
+              "tags": [
+                "sleep", "timers", "DateTime.Now", "TotalSeconds"
+              ]
+            },
+            {
+              "title": "Non-emulated APIs",
+              "path": "media/video/AVINTRO_06_02.mp4",
+              "caption": "media/captions/AVINTRO_06_02.vtt",
+              "tags": [
+                "Non-emulated", "APIs", "VirtualAllocEx", "Numa", "GetCurrentProcess"
+              ]
+            }
+
+          ]
+        },
+        {
+          "title": "Office Please Bypass Antivirus",
+          "path": "media/video/AVINTRO_07_00.mp4",
+          "caption": "media/captions/AVINTRO_07_00.vtt",
+          "tags": [
+            "office", "bypass", "antivirus"
+          ],
+          "subSections": [
+            {
+              "title": "Bypassing Antivirus in VBA",
+              "path": "media/video/AVINTRO_07_01.mp4",
+              "caption": "media/captions/AVINTRO_07_01.vtt",
+              "tags": [
+                "Antivirus", "VBA", "Caesar", "Sleep", "DateDiff"
+              ]
+            },
+            {
+              "title": "Stomping On Microsoft Word",
+              "path": "media/video/AVINTRO_07_02.mp4",
+              "caption": "media/captions/AVINTRO_07_02.vtt",
+              "tags": [
+                "Word", "stomp", "FlexHEX", "macro", "PerformanceCache", "p-code"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hiding PowerShell Inside VBA",
+          "path": "media/video/AVINTRO_08_00.mp4",
+          "caption": "media/captions/AVINTRO_08_00.vtt",
+          "tags": [
+            "hiding", "PowerShell", "VBA"
+          ],
+          "subSections": [
+            {
+              "title": "Detection of PowerShell Shellcode Runner",
+              "path": "media/video/AVINTRO_08_01.mp4",
+              "caption": "media/captions/AVINTRO_08_01.vtt",
+              "tags": [
+                "PowerShell", "shellcode", "runner"
+              ]
+            },
+            {
+              "title": "Dechaining with WMI",
+              "path": "media/video/AVINTRO_08_02.mp4",
+              "caption": "media/captions/AVINTRO_08_02.vtt",
+              "tags": [
+                "Dechaining", "WMI", "vba", "GetObject", "winmgmts", "Win32_Process", "cradle"
+              ]
+            },
+            {
+              "title": "Obfuscating VBA",
+              "path": "media/video/AVINTRO_08_03.mp4",
+              "caption": "media/captions/AVINTRO_08_03.vtt",
+              "tags": [
+                "Obfuscating", "VBA", "StrReverse", "Caesar", "ToCharArray", "ActiveDocument"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wrapping Up",
+          "path": "media/video/AVINTRO_09_00.mp4",
+          "caption": "media/captions/AVINTRO_09_00.vtt",
+          "tags": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Advanced Antivirus Evasion",
+      "path": "media/video/AVADV_00_00.mp4",
+      "caption": "media/captions/AVADV_00_00.vtt",
+      "tags": [
+        "AMSI", "Antivirus", "Evasion", "Defender"
+      ],
+      "subModules": [
+        {
+          "title": "Intel Architecture and Windows 10",
+          "path": "media/video/AVADV_01_00.mp4",
+          "caption": "media/captions/AVADV_01_00.vtt",
+          "tags": [
+            "Intel", "Architecture", "registers"
+          ],
+          "subSections": [
+            {
+              "title": "WinDbg Introduction",
+              "path": "media/video/AVADV_01_01.mp4",
+              "caption": "media/captions/AVADV_01_01.vtt",
+              "tags": [
+                "WinDbg", "breakpoint", "unassemble"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Antimalware Scan Interface",
+          "path": "media/video/AVADV_02_00.mp4",
+          "caption": "media/captions/AVADV_02_00.vtt",
+          "tags": [
+            "Antimalware", "amsi"
+          ],
+          "subSections": [
+            {
+              "title": "Understanding AMSI",
+              "path": "media/video/AVADV_02_01.mp4",
+              "caption": "media/captions/AVADV_02_01.vtt",
+              "tags": [
+                "AMSI", "AmsiInitialize", "amsiContext", "AmsiOpenSession", "AmsiScanString", "AmsiScanBuffer", "AmsiCloseSession"
+              ]
+            },
+            {
+              "title": "Hooking with Frida",
+              "path": "media/video/AVADV_02_02.mp4",
+              "caption": "media/captions/AVADV_02_02.vtt",
+              "tags": [
+                "Hooking", "Frida", "instrumentation", "trace", "AmsiScanBuffer"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bypassing AMSI With Reflection in PowerShell",
+          "path": "media/video/AVADV_03_00.mp4",
+          "caption": "media/captions/AVADV_03_00.vtt",
+          "tags": [
+            "AMSI", "Reflection", "PowerShell"
+          ],
+          "subSections": [
+            {
+              "title": "What Context Mom?",
+              "path": "media/video/AVADV_03_01.mp4",
+              "caption": "media/captions/AVADV_03_01.vtt",
+              "tags": [
+                "Context", "AmsiInitialize", "frida", "amsiContext", "AmsiOpenSession", "amsiutils", "reflection", "PSReference", "defender"
+              ]
+            },
+            {
+              "title": "Attacking Initialization",
+              "path": "media/video/AVADV_03_02.mp4",
+              "caption": "media/captions/AVADV_03_02.vtt",
+              "tags": [
+                "Attacking", "Initialization", "AmsiInitialize", "amsiInitFailed", "AmsiOpenSession"
+              ]
+            }
+              ]
+            },
+        {
+          "title": "Wrecking AMSI in PowerShell",
+          "path": "media/video/AVADV_04_00.mp4",
+          "caption": "media/captions/AVADV_04_00.vtt",
+          "tags": [
+            "AMSI", "PowerShell", "binary patching", "hotpatch"
+          ],
+          "subSections": [
+            {
+              "title": "Understanding the Assembly Flow",
+              "path": "media/video/AVADV_04_01.mp4",
+              "caption": "media/captions/AVADV_04_01.vtt",
+              "tags": [
+                "Assembly Flow", "AmsiOpenSession"
+              ]
+            },
+            {
+              "title": "Patching the Internals",
+              "path": "media/video/AVADV_04_02.mp4",
+              "caption": "media/captions/AVADV_04_02.vtt",
+              "tags": [
+                "Patching", "Internals", "AmsiOpenSession", "GetModuleHandle", "GetProcAddress", "UnsafeNativeMethods", "VirtualProtect", "PAGE_EXECUTE_READWRITE", "GetDelegateForFunctionPointer", "PAGE_EXECUTE_WRITECOPY", "Runtime.InteropServices"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "UAC Bypass vs Microsoft Defender",
+          "path": "media/video/AVADV_05_00.mp4",
+          "caption": "media/captions/AVADV_05_00.vtt",
+          "tags": [
+            "UAC", "Bypass", "Defender"
+          ],
+          "subSections": [
+            {
+              "title": "FodHelper UAC Bypass",
+              "path": "media/video/AVADV_05_01.mp4",
+              "caption": "media/captions/AVADV_05_01.vtt",
+              "tags": [
+                "FodHelper", "UAC", "Bypass", "DelegateExecute"
+              ]
+            },
+            {
+              "title": "Improving Fodhelper",
+              "path": "media/video/AVADV_05_02.mp4",
+              "caption": "media/captions/AVADV_05_02.vtt",
+              "tags": [
+                "Improving", "Fodhelper", "amsi", "defender", "EnableStageEncoding", "StageEncoder"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bypassing AMSI in Jscript",
+          "path": "media/video/AVADV_06_00.mp4",
+          "caption": "media/captions/AVADV_06_00.vtt",
+          "tags": [
+            "AMSI", "Jscript"
+          ],
+          "subSections": [
+            {
+              "title": "Detecting the AMSI API Flow",
+              "path": "media/video/AVADV_06_01.mp4",
+              "caption": "media/captions/AVADV_06_01.vtt",
+              "tags": [
+                "AMSI", "API", "Jscript", "Sleep", "DotNetToJscript", "runner"
+              ]
+            },
+            {
+              "title": "Is That Your Registry Key?",
+              "path": "media/video/AVADV_06_02.mp4",
+              "caption": "media/captions/AVADV_06_02.vtt",
+              "tags": [
+                "Registry", "DotNetToJscript", "amsi", "AmsiEnable", "JAmsiIsEnabledByRegistry", "RegOpenKeyExW", "RegQueryValueExW", "RegWrite", "wscript", "RegRead", "cscript", "ScriptFullName"
+              ]
+            },
+            {
+              "title": "I Am My Own Executable",
+              "path": "media/video/AVADV_06_03.mp4",
+              "caption": "media/captions/AVADV_06_03.vtt",
+              "tags": [
+                "Executable", "amsi", "Jscript", "DLL hijacking", "LoadLibrary", "FileExists", "CopyFile"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wrapping Up",
+          "path": "media/video/AVADV_07_00.mp4",
+          "caption": "media/captions/AVADV_07_00.vtt",
+          "tags": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Application Whitelisting",
+      "path": "media/video/AW_00_00.mp4",
+      "caption": "media/captions/AW_00_00.vtt",
+      "tags": [
+        "Application", "Whitelisting", "LOLBAS", "LOLBIN"
+      ],
+      "subModules": [
+        {
+          "title": "Application Whitelisting Theory and Setup",
+          "path": "media/video/AW_01_00.mp4",
+          "caption": "media/captions/AW_01_00.vtt",
+          "tags": [
+            "Application Whitelisting", "theory"
+          ],
+          "subSections": [
+            {
+              "title": "Application Whitelisting Theory",
+              "path": "media/video/AW_01_01.mp4",
+              "caption": "media/captions/AW_01_01.vtt",
+              "tags": [
+                "Application Whitelisting", "theory", "PsSetCreateProcessNotifyRoutineEx", "AppLocker", "APPIDSVC", "WDAC", "defender"
+              ]
+            },
+            {
+              "title": "AppLocker Setup and Rules",
+              "path": "media/video/AW_01_02.mp4",
+              "caption": "media/captions/AW_01_02.vtt",
+              "tags": [
+                "AppLocker", "Rules"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Basic Bypasses",
+          "path": "media/video/AW_02_00.mp4",
+          "caption": "media/captions/AW_02_00.vtt",
+          "tags": [
+            "AppLocker Bypasses"
+          ],
+          "subSections": [
+            {
+              "title": "Trusted Folders",
+              "path": "media/video/AW_02_01.mp4",
+              "caption": "media/captions/AW_02_01.vtt",
+              "tags": [
+                "trusted", "folders", "AppLocker", "AccessChk", "icacls"
+              ]
+            },
+            {
+              "title": "Bypass With DLLs",
+              "path": "media/video/AW_02_02.mp4",
+              "caption": "media/captions/AW_02_02.vtt",
+              "tags": [
+                "Bypass", "DLLs", "applocker"
+              ]
+            },
+            {
+              "title": "Alternate Data Streams",
+              "path": "media/video/AW_02_03.mp4",
+              "caption": "media/captions/AW_02_03.vtt",
+              "tags": [
+                "Alternate Data Streams", "ads", "AppLocker"
+              ]
+            },
+            {
+              "title": "Third Party Execution",
+              "path": "media/video/AW_02_04.mp4",
+              "caption": "media/captions/AW_02_04.vtt",
+              "tags": [
+                "Third Party", "AppLocker"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bypassing AppLocker with PowerShell",
+          "path": "media/video/AW_03_00.mp4",
+          "caption": "media/captions/AW_03_00.vtt",
+          "tags": [
+            "Bypassing", "AppLocker", "PowerShell"
+          ],
+          "subSections": [
+            {
+              "title": "PowerShell Constrained Language Mode",
+              "path": "media/video/AW_03_01.mp4",
+              "caption": "media/captions/AW_03_01.vtt",
+              "tags": [
+                "PowerShell", "Constrained Language Mode", "AppLocker", "ExecutionContext.SessionState.LanguageMode"
+              ]
+            },
+            {
+              "title": "Custom Runspaces",
+              "path": "media/video/AW_03_02.mp4",
+              "caption": "media/captions/AW_03_02.vtt",
+              "tags": [
+                "Runspaces", "CreateRunspace", "Automation.Runspaces", "ExecutionContext.SessionState.LanguageMode", "AddScript", "PowerUp"
+              ]
+            },
+            {
+              "title": "PowerShell CLM Bypass",
+              "path": "media/video/AW_03_03.mp4",
+              "caption": "media/captions/AW_03_03.vtt",
+              "tags": [
+                "PowerShell", "CLM", "InstallUtil", "Configuration.Install", "certutil", "bitsadmin"
+              ]
+            },
+            {
+              "title": "Reflective Injection Returns",
+              "path": "media/video/AW_03_04.mp4",
+              "caption": "media/captions/AW_03_04.vtt",
+              "tags": [
+                "Reflective", "Injection", "Invoke-ReflectivePEInjection", "InstallUtil"
+              ]
+            }
+
+          ]
+        },
+        {
+          "title": "Bypassing AppLocker with C#",
+          "path": "media/video/AW_04_00.mp4",
+          "caption": "media/captions/AW_04_00.vtt",
+          "tags": [
+            "Bypassing", "AppLocker", "c#"
+          ],
+          "subSections": [
+            {
+              "title": "Locating a Target",
+              "path": "media/video/AW_04_01.mp4",
+              "caption": "media/captions/AW_04_01.vtt",
+              "tags": [
+                "dnlib", "LoadMethodScanner"
+              ]
+            },
+            {
+              "title": "Reverse Engineering for Load",
+              "path": "media/video/AW_04_02.mp4",
+              "caption": "media/captions/AW_04_02.vtt",
+              "tags": [
+                "Reverse Engineering", "Workflow.ComponentModel", "dnSpy", "ComponentModel.Compiler", "WorkflowCompilerInternal", "GenerateLocalAssembly", "InternalCompileFromDomBatch", "CompileAssemblyFromFile", "CodeDomProvider", "CompileAssemblyFromFileBatch", "FileIntegrity", "WldpIsDynamicCodePolicyEnabled", "ReadCompilerInput", "XmlReader"
+              ]
+            },
+            {
+              "title": "Give Me Code Exec",
+              "path": "media/video/AW_04_03.mp4",
+              "caption": "media/captions/AW_04_03.vtt",
+              "tags": [
+                "WorkflowCompilerInternal", "GenerateLocalAssembly", "InternalCompileFromDomBatch", "LocalAssembly", "XomlCompilerHelper", "CreateInstance"
+              ]
+            },
+            {
+              "title": "Invoking the Target Part 1",
+              "path": "media/video/AW_04_04.mp4",
+              "caption": "media/captions/AW_04_04.vtt",
+              "tags": [
+                "Workflow.Compiler", "ReadCompilerInput", "XmlReader", "ReadObject", "DataContractSerializer", "WriteObject", "SerializeInputToWrapper", "WorkflowCompilerParameters", "GetMethod", "xoml", "GenerateLocalAssembly", "GenerateCodeFromFileBatch"
+              ]
+            },
+            {
+              "title": "Invoking the Target Part 2",
+              "path": "media/video/AW_04_05.mp4",
+              "caption": "media/captions/AW_04_05.vtt",
+              "tags": [
+                "Workflow.Compiler", "InternalCompileFromDomBatch", "CreateInstance", "Workflow.ComponentModel", "WriteCompilerOutput", "SerializeInputToWrapper"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bypassing AppLocker with JScript",
+          "path": "media/video/AW_05_00.mp4",
+          "caption": "media/captions/AW_05_00.vtt",
+          "tags": [
+            "AppLocker", "JScript"
+          ],
+          "subSections": [
+            {
+              "title": "JScript and MSHTA",
+              "path": "media/video/AW_05_01.mp4",
+              "caption": "media/captions/AW_05_01.vtt",
+              "tags": [
+                "JScript", "MSHTA"
+              ]
+            },
+            {
+              "title": "XSL Transform",
+              "path": "media/video/AW_05_02.mp4",
+              "caption": "media/captions/AW_05_02.vtt",
+              "tags": [
+                "XSL", "Transform", "XSLT", "XHTML", "Jscript", "wmic"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wrapping Up",
+          "path": "media/video/AW_06_00.mp4",
+          "caption": "media/captions/AW_06_00.vtt",
+          "tags": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bypassing Network Filters",
+      "path": "media/video/IDS_00_00.mp4",
+      "caption": "media/captions/IDS_00_00.vtt",
+      "tags": [
+        "Internet Edge", "IDS", "IPS"
+      ],
+      "subModules": [
+          {
+            "title": "DNS Filters",
+          "path": "media/video/IDS_01_00.mp4",
+          "caption": "media/captions/IDS_01_00.vtt",
+          "tags": [
+            "DNS Filters", "OpenDNS", "malwaredomainlist", "sinkhole", "nslookup", "IPVoid"
+          ],
+          "subSections": [
+            {
+              "title": "Dealing with DNS Filters",
+              "path": "media/video/IDS_01_01.mp4",
+              "caption": "media/captions/IDS_01_01.vtt",
+              "tags": [
+                "DNS", "Filters", "typo-squatting"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Web Proxies",
+          "path": "media/video/IDS_02_00.mp4",
+          "caption": "media/captions/IDS_02_00.vtt",
+          "tags": [
+            "web", "proxy"
+          ],
+          "subSections": [
+            {
+              "title": "Bypassing Web Proxies",
+              "path": "media/video/IDS_02_01.mp4",
+              "caption": "media/captions/IDS_02_01.vtt",
+              "tags": [
+                "bypass", "proxy", "HttpOpenRequestA", "InternetSetOptionA", "User-Agent", "HttpUserAgent"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "IDS and IPS Sensors",
+          "path": "media/video/IDS_03_00.mp4",
+          "caption": "media/captions/IDS_03_00.vtt",
+          "tags": [
+            "IDS", "IPS", "Sensors", "Intrusion", "fragmentation"
+          ],
+          "subSections": [
+            {
+              "title": "Case study: Bypassing Norton HIPS with Custom Certificates",
+              "path": "media/video/IDS_03_01.mp4",
+              "caption": "media/captions/IDS_03_01.vtt",
+              "tags": [
+                "Norton", "Bypass", "HIPS", "Custom Certificates", "openssl", "CipherString", "SECLEVEL", "HandlerSSLCert"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Full Packet Capture Devices",
+          "path": "media/video/IDS_04_00.mp4",
+          "caption": "media/captions/IDS_04_00.vtt",
+          "tags": [
+            "Full Packet Capture"
+          ]
+          },
+        {
+          "title": "HTTPS Inspection",
+          "path": "media/video/IDS_05_00.mp4",
+          "caption": "media/captions/IDS_05_00.vtt",
+          "tags": [
+            "HTTPS", "Inspection", "Certificate Pinning", "StagerVerifySSLCert", "HandlerSSLCert"
+          ]
+          },
+          {
+            "title": "Domain Fronting",
+            "path": "media/video/IDS_06_00.mp4",
+            "caption": "media/captions/IDS_06_00.vtt",
+          "tags": [
+            "Domain Fronting", "Content Delivery Network", "cdn", "Server Name Indication", "sni", "Client Hello", "CNAME"
+          ],
+          "subSections": [
+            {
+              "title": "Domain Fronting in The Lab",
+              "path": "media/video/IDS_06_01.mp4",
+              "caption": "media/captions/IDS_06_01.vtt",
+              "tags": [
+                "Domain Fronting", "dnsmasq", "snort", "proxy_pass", "proxy_ssl_verify", "HttpHostHeader", "OverrideLHOST", "OverrideRequestHost", "wireshark", "Client Hello", "Server Hello"
+              ]
+            }
+
+          ]
+        },
+        {
+          "title": "DNS Tunneling",
+          "path": "media/video/IDS_07_00.mp4",
+          "caption": "media/captions/IDS_07_00.vtt",
+          "tags": [
+            "DNS", "Tunneling"
+          ],
+          "subSections": [
+            {
+              "title": "How DNS Tunneling Works",
+              "path": "media/video/IDS_07_01.mp4",
+              "caption": "media/captions/IDS_07_01.vtt",
+              "tags": [
+                "DNS", "Tunneling"
+              ]
+            },
+            {
+              "title": "DNS Tunneling with dnscat2",
+              "path": "media/video/IDS_07_02.mp4",
+              "caption": "media/captions/IDS_07_02.vtt",
+              "tags": [
+                "DNS", "Tunneling", "dnscat2", "dnsmasq"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wrapping Up",
+          "path": "media/video/IDS_08_00.mp4",
+          "caption": "media/captions/IDS_08_00.vtt",
+          "tags": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Linux Post-Exploitation",
+      "path": "media/video/LPE_00_00.mp4",
+      "caption": "media/captions/LPE_00_00.vtt",
+      "tags": [
+        "Linux", "Post-Exploitation"
+      ],
+      "subModules": [
+        {
+          "title": "User Configuration Files",
+          "path": "media/video/LPE_01_00.mp4",
+          "caption": "media/captions/LPE_01_00.vtt",
+          "tags": [
+            "configuration", "files", "dotfiles", "bash_profile", "bashrc"
+          ],
+          "subSections": [
+            {
+              "title": "VIM Config Simple Backdoor",
+              "path": "media/video/LPE_01_01.mp4",
+              "caption": "media/captions/LPE_01_01.vtt",
+              "tags": [
+                "VIM", "Backdoor", "vimrc", "source", "sudo", "sudoers"
+              ]
+            },
+            {
+              "title": "VIM Config Simple Keylogger",
+              "path": "media/video/LPE_01_02.mp4",
+              "caption": "media/captions/LPE_01_02.vtt",
+              "tags": [
+                "VIM", "keylogger", "autocommand", "VimEnter", "VimLeave", "FileAppendPre", "BufWritePost", "autocmd"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bypassing AV",
+          "path": "media/video/LPE_02_00.mp4",
+          "caption": "media/captions/LPE_02_00.vtt",
+          "tags": [
+            "Bypass", "AV"
+          ],
+          "subSections": [
+            {
+              "title": "Kaspersky Endpoint Security",
+              "path": "media/video/LPE_02_01.mp4",
+              "caption": "media/captions/LPE_02_01.vtt",
+              "tags": [
+                "Kaspersky", "kesl-control", "EICAR"
+              ]
+            },
+            {
+              "title": "Antiscan.me",
+              "path": "media/video/LPE_02_02.mp4",
+              "caption": "media/captions/LPE_02_02.vtt",
+              "tags": [
+                "Antiscan.me", "XOR", "encode"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Shared Libraries",
+          "path": "media/video/LPE_03_00.mp4",
+          "caption": "media/captions/LPE_03_00.vtt",
+          "tags": [
+            "Shared", "Libraries"
+          ],
+          "subSections": [
+            {
+              "title": "How Shared Libraries Work on Linux",
+              "path": "media/video/LPE_03_01.mp4",
+              "caption": "media/captions/LPE_03_01.vtt",
+              "tags": [
+                "Shared", "Libraries", "linux", "ELF", "LD_LIBRARY_PATH"
+              ]
+            },
+            {
+              "title": "Shared Library Hijacking via LD_LIBRARY_PATH",
+              "path": "media/video/LPE_03_02.mp4",
+              "caption": "media/captions/LPE_03_02.vtt",
+              "tags": [
+                "Shared", "Libraries", "Hijacking", "LD_LIBRARY_PATH", "bashrc", "bash_profile", "sudoers", "env_reset", "env_keep", "PIC", "soname", "ldd", "readelf"
+              ]
+            },
+            {
+              "title": "Exploitation via LD_PRELOAD",
+              "path": "media/video/LPE_03_03.mp4",
+              "caption": "media/captions/LPE_03_03.vtt",
+              "tags": [
+                "Exploitation", "LD_PRELOAD", "ltrace", "geteuid", "env_keep", "bashrc"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wrapping Up",
+          "path": "media/video/LPE_04_00.mp4",
+          "caption": "media/captions/LPE_04_00.vtt",
+          "tags": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kiosk Breakouts",
+      "path": "media/video/KIOSK_00_00.mp4",
+      "caption": "media/captions/KIOSK_00_00.vtt",
+      "tags": [
+        "Kiosk", "Breakouts", "Porteus"
+      ],
+      "subModules": [
+        {
+          "title": "Kiosk Enumeration",
+          "path": "media/video/KIOSK_01_00.mp4",
+          "caption": "media/captions/KIOSK_01_00.vtt",
+          "tags": [
+            "Kiosk", "Enumeration", "LOLBAS", "GTFOBins"
+          ],
+          "subSections": [
+            {
+              "title": "Kiosk Browser Enumeration",
+              "path": "media/video/KIOSK_01_01.mp4",
+              "caption": "media/captions/KIOSK_01_01.vtt",
+              "tags": [
+                "Kiosk", "Browser", "Enumeration", "URI scheme", "IRC"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Command Execution",
+          "path": "media/video/KIOSK_02_00.mp4",
+          "caption": "media/captions/KIOSK_02_00.vtt",
+          "tags": [
+            "Command", "Execution"
+          ],
+          "subSections": [
+            {
+              "title": "Exploring the Filesystem",
+              "path": "media/video/KIOSK_02_01.mp4",
+              "caption": "media/captions/KIOSK_02_01.vtt",
+              "tags": [
+                "Exploring", "Filesystem", "dunstify"
+              ]
+            },
+            {
+              "title": "Leveraging Firefox Profiles",
+              "path": "media/video/KIOSK_02_02.mp4",
+              "caption": "media/captions/KIOSK_02_02.vtt",
+              "tags": [
+                "Firefox", "Profiles"
+              ]
+            },
+            {
+              "title": "Enumerating System Information",
+              "path": "media/video/KIOSK_02_03.mp4",
+              "caption": "media/captions/KIOSK_02_03.vtt",
+              "tags": [
+                "Enumerating", "Scratchpad"
+              ]
+            },
+            {
+              "title": "Scratching the Surface",
+              "path": "media/video/KIOSK_02_04.mp4",
+              "caption": "media/captions/KIOSK_02_04.vtt",
+              "tags": [
+                "Scratchpad", "gtkdialog"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Post-Exploitation",
+          "path": "media/video/KIOSK_03_00.mp4",
+          "caption": "media/captions/KIOSK_03_00.vtt",
+          "tags": [
+            "Post-Exploitation", "gtkdialog"
+          ],
+          "subSections": [
+            {
+              "title": "Simulating an Interactive Shell",
+              "path": "media/video/KIOSK_03_01.mp4",
+              "caption": "media/captions/KIOSK_03_01.vtt",
+              "tags": [
+                "gtkdialog", "Shell"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Privilege Escalation",
+          "path": "media/video/KIOSK_04_00.mp4",
+          "caption": "media/captions/KIOSK_04_00.vtt",
+          "tags": [
+            "Privilege", "Escalation"
+          ],
+          "subSections": [
+            {
+              "title": "Thinking Outside the Box",
+              "path": "media/video/KIOSK_04_01.mp4",
+              "caption": "media/captions/KIOSK_04_01.vtt",
+              "tags": [
+                "openbox", "bookmarks", "symlink", "cron"
+              ]
+            },
+            {
+              "title": "Root Shell at the Top of the Hour",
+              "path": "media/video/KIOSK_04_02.mp4",
+              "caption": "media/captions/KIOSK_04_02.vtt",
+              "tags": [
+                "Root", "cron", "bookmark", "gtkdialog", "busybox"
+              ]
+            },
+            {
+              "title": "Getting Root Terminal Access",
+              "path": "media/video/KIOSK_04_03.mp4",
+              "caption": "media/captions/KIOSK_04_03.vtt",
+              "tags": [
+                "Root", "Terminal", "xdotool", "xorg", "DontVTSwitch", "tty"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wrapping Up",
+          "path": "media/video/KIOSK_05_00.mp4",
+          "caption": "media/captions/KIOSK_05_00.vtt",
+          "tags": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Windows Credentials",
+      "path": "media/video/WC_00_00.mp4",
+      "caption": "media/captions/WC_00_00.vtt",
+      "tags": [
+        "Windows", "Credentials"
+      ],
+      "subModules": [
+        {
+          "title": "Local Windows Credentials",
+          "path": "media/video/WC_01_00.mp4",
+          "caption": "media/captions/WC_01_00.vtt",
+          "tags": [
+            "local", "Windows", "Credentials"
+          ],
+          "subSections": [
+            {
+              "title": "SAM Database",
+              "path": "media/video/WC_01_01.mp4",
+              "caption": "media/captions/WC_01_01.vtt",
+              "tags": [
+                "SAM", "NTLM", "MD4", "SID", "RID", "Volume Shadow Copy", "vssadmin", "wmic", "Creddump", "pwdump"
+              ]
+            },
+            {
+              "title": "Hardening the Local Administrator Account",
+              "path": "media/video/WC_01_02.mp4",
+              "caption": "media/captions/WC_01_02.vtt",
+              "tags": [
+                "Hardening", "Administrator", "Group Policy Preferences", "LAPS", "AdmPwdExpirationTime", "LAPSToolkit", "PowerView"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Access Tokens",
+          "path": "media/video/WC_02_00.mp4",
+          "caption": "media/captions/WC_02_00.vtt",
+          "tags": [
+            "Access", "Tokens"
+          ],
+          "subSections": [
+            {
+              "title": "Access Token Theory",
+              "path": "media/video/WC_02_01.mp4",
+              "caption": "media/captions/WC_02_01.vtt",
+              "tags": [
+                "Access", "Token", "Theory", "integrity level", "User Account Control", "uac", "AdjustTokenPrivileges", "SeShutdownPrivilege", "LsaAddAccountRights", "SeLoadDriverPrivilege", "Impersonation"
+              ]
+            },
+            {
+              "title": "Elevation with Impersonation",
+              "path": "media/video/WC_02_02.mp4",
+              "caption": "media/captions/WC_02_02.vtt",
+              "tags": [
+                "Elevation", "Impersonation", "SeImpersonatePrivilege", "DuplicateTokenEx", "interprocess communication", "IPC", "pipe", "ImpersonateNamedPipeClient", "CreateNamedPipe", "ConnectNamedPipe", "OpenThreadToken", "GetTokenInformation", "ConvertSidToStringSid", "Marshal.AllocHGlobal", "RpcOpenPrinter", "RpcRemoteFindFirstPrinterChangeNotification", "SpoolSample", "spoolss", "spoolsv", "CreateProcessWithTokenW", "DuplicateTokenEx"
+              ]
+            },
+            {
+              "title": "Fun with Incognito",
+              "path": "media/video/WC_02_03.mp4",
+              "caption": "media/captions/WC_02_03.vtt",
+              "tags": [
+                "Incognito", "Meterpreter", "ImpersonateLoggedOnUser"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kerberos and Domain Credentials",
+          "path": "media/video/WC_03_00.mp4",
+          "caption": "media/captions/WC_03_00.vtt",
+          "tags": [
+            "Kerberos", "Domain", "Credentials"
+          ],
+          "subSections": [
+            {
+              "title": "Kerberos Authentication",
+              "path": "media/video/WC_03_01.mp4",
+              "caption": "media/captions/WC_03_01.vtt",
+              "tags": [
+                "Kerberos", "Authentication", "KDC", "AS_REQ", "TGT", "SPN", "TGS", "TGS_REP", "AP_REQ"
+              ]
+            },
+            {
+              "title": "Mimikatz",
+              "path": "media/video/WC_03_02.mp4",
+              "caption": "media/captions/WC_03_02.vtt",
+              "tags": [
+                "Mimikatz", "Local Security Authority", "LSASS", "SeDebugPrivilege", "AdjustTokenPrivileges", "PPL", "SeLoadDriverPrivilege"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Processing Credentials Offline",
+          "path": "media/video/WC_04_00.mp4",
+          "caption": "media/captions/WC_04_00.vtt",
+          "tags": [
+            "Credentials", "Offline"
+          ],
+          "subSections": [
+            {
+              "title": "Memory Dump",
+              "path": "media/video/WC_04_01.mp4",
+              "caption": "media/captions/WC_04_01.vtt",
+              "tags": [
+                "Memory", "Dump", "LSASS"
+              ]
+            },
+            {
+              "title": "MiniDumpWriteDump",
+              "path": "media/video/WC_04_02.mp4",
+              "caption": "media/captions/WC_04_02.vtt",
+              "tags": [
+                "MiniDumpWriteDump", "GetProcessesByName", "OpenProcess", "FileStream", "MiniDumpWriteFile", "DangerousGetHandle"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wrapping Up",
+          "path": "media/video/WC_05_00.mp4",
+          "caption": "media/captions/WC_05_00.vtt",
+          "tags": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Windows Lateral Movement",
+      "path": "media/video/LM_00_00.mp4",
+      "caption": "media/captions/LM_00_00.vtt",
+      "tags": [
+        "Windows", "Lateral", "Movement"
+      ],
+      "subModules": [
+        {
+          "title": "Remote Desktop Protocol",
+          "path": "media/video/LM_01_00.mp4",
+          "caption": "media/captions/LM_01_00.vtt",
+          "tags": [
+            "Remote", "Desktop"
+          ],
+          "subSections": [
+            {
+              "title": "Lateral Movement with RDP",
+              "path": "media/video/LM_01_01.mp4",
+              "caption": "media/captions/LM_01_01.vtt",
+              "tags": [
+                "Lateral", "Movement", "RDP", "mstsc", "mimikatz", "LSA", "restricted admin", "DisableRestrictedAdmin", "Enter-PSSession", "xfreerdp"
+              ]
+            },
+            {
+              "title": "Reverse RDP Proxying With Metasploit",
+              "path": "media/video/LM_01_02.mp4",
+              "caption": "media/captions/LM_01_02.vtt",
+              "tags": [
+                "Reverse", "RDP", "Proxy", "Metasploit", "autoroute", "tunnel", "Proxychains"
+              ]
+            },
+            {
+              "title": "Reverse RDP Proxying With Chisel",
+              "path": "media/video/LM_01_03.mp4",
+              "caption": "media/captions/LM_01_03.vtt",
+              "tags": [
+                "Reverse", "RDP", "Proxy", "Chisel", "sshd_config"
+              ]
+            },
+            {
+              "title": "RDP as a Console",
+              "path": "media/video/LM_01_04.mp4",
+              "caption": "media/captions/LM_01_04.vtt",
+              "tags": [
+                "RDP", "Console", "SharpRDP", "SendKeys"
+              ]
+            },
+            {
+              "title": "Stealing Clear Text Credentials From RDP",
+              "path": "media/video/LM_01_05.mp4",
+              "caption": "media/captions/LM_01_05.vtt",
+              "tags": [
+                "Stealing", "Credentials", "RDP", "hooking", "WinExec", "Detours", "RdpThief", "Thread.Sleep", "Threading"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fileless Lateral Movement",
+          "path": "media/video/LM_02_00.mp4",
+          "caption": "media/captions/LM_02_00.vtt",
+          "tags": [
+            "Fileless", "Lateral", "Movement"
+          ],
+          "subSections": [
+            {
+              "title": "Authentication and Execution Theory",
+              "path": "media/video/LM_02_01.mp4",
+              "caption": "media/captions/LM_02_01.vtt",
+              "tags": [
+                "Authentication", "Execution", "Theory", "DCE", "RPC", "SMB", "OpenSCManagerW", "CreateServiceA", "OpenService", "ChangeServiceConfigA", "StartServiceA"
+              ]
+            },
+            {
+              "title": "Implementing Fileless Lateral Movement in C#",
+              "path": "media/video/LM_02_02.mp4",
+              "caption": "media/captions/LM_02_02.vtt",
+              "tags": [
+                "Fileless", "Lateral", "Movement", "C#", "OpenSCManagerW", "SensorService", "OpenService", "ChangeServiceConfigA", "StartService"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wrapping Up",
+          "path": "media/video/LM_03_00.mp4",
+          "caption": "media/captions/LM_03_00.vtt",
+          "tags": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Linux Lateral Movement",
+      "path": "media/video/LLM_00_00.mp4",
+      "caption": "media/captions/LLM_00_00.vtt",
+      "tags": [
+        "Linux", "Lateral", "Movement"
+      ],
+      "subModules": [
+        {
+          "title": "Lateral Movement with SSH",
+          "path": "media/video/LLM_01_00.mp4",
+          "caption": "media/captions/LLM_01_00.vtt",
+          "tags": [
+            "Lateral", "Movement", "SSH", "authorized_keys"
+          ],
+          "subSections": [
+            {
+              "title": "SSH Keys",
+              "path": "media/video/LLM_01_01.mp4",
+              "caption": "media/captions/LLM_01_01.vtt",
+              "tags": [
+                "SSH", "Keys", "id_rsa", "known_hosts", "HashKnownHosts", "bash_history", "John the Ripper", "JTR", "SSH2John"
+              ]
+            },
+            {
+              "title": "SSH Persistence",
+              "path": "media/video/LLM_01_02.mp4",
+              "caption": "media/captions/LLM_01_02.vtt",
+              "tags": [
+                "SSH", "Persistence", "authorized_keys"
+              ]
+            },
+            {
+              "title": "SSH Hijacking with ControlMaster",
+              "path": "media/video/LLM_01_03.mp4",
+              "caption": "media/captions/LLM_01_03.vtt",
+              "tags": [
+                "SSH", "Hijacking", "ControlMaster", "ControlPath", "ControlPersist", "MaxSessions"
+              ]
+            },
+            {
+              "title": "SSH Hijacking Using SSH-Agent and SSH Agent Forwarding",
+              "path": "media/video/LLM_01_04.mp4",
+              "caption": "media/captions/LLM_01_04.vtt",
+              "tags": [
+                "Hijacking", "SSH-Agent", "SSH Agent Forwarding", "ssh-copy-id", "ForwardAgent", "AllowAgentForwarding", "ssh-add", "pstree", "SSH_AUTH_SOCK"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DevOps",
+          "path": "media/video/LLM_02_00.mp4",
+          "caption": "media/captions/LLM_02_00.vtt",
+          "tags": [
+            "DevOps"
+          ],
+          "subSections": [
+            {
+              "title": "Introduction to Ansible",
+              "path": "media/video/LLM_02_01.mp4",
+              "caption": "media/captions/LLM_02_01.vtt",
+              "tags": [
+                "Ansible", "node", "artifact"
+              ]
+            },
+            {
+              "title": "Enumerating Ansible",
+              "path": "media/video/LLM_02_02.mp4",
+              "caption": "media/captions/LLM_02_02.vtt",
+              "tags": [
+                "Enumerating", "Ansible"
+              ]
+            },
+            {
+              "title": "Ad-hoc Commands",
+              "path": "media/video/LLM_02_03.mp4",
+              "caption": "media/captions/LLM_02_03.vtt",
+              "tags": [
+                "Ad-hoc", "ansible"
+              ]
+            },
+            {
+              "title": "Ansible Playbooks",
+              "path": "media/video/LLM_02_04.mp4",
+              "caption": "media/captions/LLM_02_04.vtt",
+              "tags": [
+                "Ansible", "Playbooks", "become_user", "ansible_become_pass", "vault", "ansible2john", "hashcat"
+              ]
+            },
+            {
+              "title": "Sensitive Data Leakage via Ansible Modules",
+              "path": "media/video/LLM_02_05.mp4",
+              "caption": "media/captions/LLM_02_05.vtt",
+              "tags": [
+                "Sensitive Data", "Leakage", "Ansible", "Modules"
+              ]
+            },
+            {
+              "title": "Introduction to Artifactory",
+              "path": "media/video/LLM_02_06.mp4",
+              "caption": "media/captions/LLM_02_06.vtt",
+              "tags": [
+                "Artifactory", "intro"
+              ]
+            },
+            {
+              "title": "Artifactory Enumeration",
+              "path": "media/video/LLM_02_07.mp4",
+              "caption": "media/captions/LLM_02_07.vtt",
+              "tags": [
+                "Artifactory", "Enumeration"
+              ]
+            },
+            {
+              "title": "Compromising Artifactory Backups",
+              "path": "media/video/LLM_02_08.mp4",
+              "caption": "media/captions/LLM_02_08.vtt",
+              "tags": [
+                "Artifactory", "Backups"
+              ]
+            },
+            {
+              "title": "Compromising Artifactory’s Database",
+              "path": "media/video/LLM_02_09.mp4",
+              "caption": "media/captions/LLM_02_09.vtt",
+              "tags": [
+                "Artifactory", "Database", "derby"
+              ]
+            },
+            {
+              "title": "Adding a Secondary Artifactory Admin Account",
+              "path": "media/video/LLM_02_10.mp4",
+              "caption": "media/captions/LLM_02_10.vtt",
+              "tags": [
+                "Secondary", "Artifactory", "Admin", "bootstrap"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kerberos on Linux",
+          "path": "media/video/LLM_03_00.mp4",
+          "caption": "media/captions/LLM_03_00.vtt",
+          "tags": [
+            "Kerberos", "Linux"
+          ],
+          "subSections": [
+            {
+              "title": "General Introduction to Kerberos on Linux",
+              "path": "media/video/LLM_03_01.mp4",
+              "caption": "media/captions/LLM_03_01.vtt",
+              "tags": [
+                "Kerberos", "Linux", "Active Directory", "KRB5CCNAME", "kinit", "klist", "SPN", "ldapsearch", "kvno"
+              ]
+            },
+            {
+              "title": "Stealing Keytab Files",
+              "path": "media/video/LLM_03_02.mp4",
+              "caption": "media/captions/LLM_03_02.vtt",
+              "tags": [
+                "Stealing", "Keytab", "ktutil", "wkt", "kinit", "smbclient"
+              ]
+            },
+            {
+              "title": "Attacking Using Credential Cache Files",
+              "path": "media/video/LLM_03_03.mp4",
+              "caption": "media/captions/LLM_03_03.vtt",
+              "tags": [
+                "Credential", "Cache", "ccache", "KRB5CCNAME"
+              ]
+            },
+            {
+              "title": "Using Kerberos with Impacket",
+              "path": "media/video/LLM_03_04.mp4",
+              "caption": "media/captions/LLM_03_04.vtt",
+              "tags": [
+                "Kerberos", "Impacket", "KRB5CCNAME", "proxy_dns", "proxychains", "GetUserSPNs", "GetADUsers"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wrapping Up",
+          "path": "media/video/LLM_04_00.mp4",
+          "caption": "media/captions/LLM_04_00.vtt",
+          "tags": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Microsoft SQL Attacks",
+      "path": "media/video/MSSQL_00_00.mp4",
+      "caption": "media/captions/MSSQL_00_00.vtt",
+      "tags": [
+        "Microsoft", "SQL", "Attacks"
+      ],
+      "subModules": [
+        {
+          "title": "MS SQL in Active Directory",
+          "path": "media/video/MSSQL_01_00.mp4",
+          "caption": "media/captions/MSSQL_01_00.vtt",
+          "tags": [
+            "MS", "SQL", "Active", "Directory"
+          ],
+          "subSections": [
+            {
+              "title": "MS SQL Enumeration",
+              "path": "media/video/MSSQL_01_01.mp4",
+              "caption": "media/captions/MSSQL_01_01.vtt",
+              "tags": [
+                "MS", "SQL", "Enumeration", "setspn", "GetUserSPNs"
+              ]
+            },
+            {
+              "title": "MS SQL Authentication",
+              "path": "media/video/MSSQL_01_02.mp4",
+              "caption": "media/captions/MSSQL_01_02.vtt",
+              "tags": [
+                "MS", "SQL", "Authentication", "dbo", "sysadmin", "SqlConnection", "SqlClient", "ConnectionString", "SYSTEM_USER", "SqlCommand", "ExecuteReader", "SqlDataReader", "IS_SRVROLEMEMBER", "USER_NAME"
+              ]
+            },
+            {
+              "title": "UNC Path Injection",
+              "path": "media/video/MSSQL_01_03.mp4",
+              "caption": "media/captions/MSSQL_01_03.vtt",
+              "tags": [
+                "UNC", "Path", "Injection", "xp_dirtree", "ExecuteReader", "Responder", "Net-NTLM", "hashcat"
+              ]
+            },
+            {
+              "title": "Relay My Hash",
+              "path": "media/video/MSSQL_01_04.mp4",
+              "caption": "media/captions/MSSQL_01_04.vtt",
+              "tags": [
+                "Relay", "Hash", "ntlmrelayx"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MS SQL Escalation",
+          "path": "media/video/MSSQL_02_00.mp4",
+          "caption": "media/captions/MSSQL_02_00.vtt",
+          "tags": [
+            "MS", "SQL", "Escalation"
+          ],
+          "subSections": [
+            {
+              "title": "Privilege Escalation",
+              "path": "media/video/MSSQL_02_01.mp4",
+              "caption": "media/captions/MSSQL_02_01.vtt",
+              "tags": [
+                "Privilege", "Escalation", "Impersonation", "server_permissions", "server_principals", "grantor_principal", "TRUSTWORTHY", "msdb", "dbo"
+              ]
+            },
+            {
+              "title": "Getting Code Execution",
+              "path": "media/video/MSSQL_02_02.mp4",
+              "caption": "media/captions/MSSQL_02_02.vtt",
+              "tags": [
+                "MS SQL", "Execution", "xp_cmdshell", "sp_configure", "sp_OACreate", "sp_OAMethod"
+              ]
+            },
+            {
+              "title": "Custom Assemblies",
+              "path": "media/video/MSSQL_02_03.mp4",
+              "caption": "media/captions/MSSQL_02_03.vtt",
+              "tags": [
+                "Custom", "Assemblies", "TRUSTWORTHY", "StartInfo", "SqlContext", "SqlDataRecord", "CLR"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Linked SQL Servers",
+          "path": "media/video/MSSQL_03_00.mp4",
+          "caption": "media/captions/MSSQL_03_00.vtt",
+          "tags": [
+            "Linked", "SQL", "Servers"
+          ],
+          "subSections": [
+            {
+              "title": "Follow The Link",
+              "path": "media/video/MSSQL_03_01.mp4",
+              "caption": "media/captions/MSSQL_03_01.vtt",
+              "tags": [
+                "sql", "link", "sp_linkedservers", "OPENQUERY", "EncodedCommand"
+              ]
+            },
+            {
+              "title": "Come Home To Me",
+              "path": "media/video/MSSQL_03_02.mp4",
+              "caption": "media/captions/MSSQL_03_02.vtt",
+              "tags": [
+                "sp_linkedservers", "openquery"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wrapping Up",
+          "path": "media/video/MSSQL_04_00.mp4",
+          "caption": "media/captions/MSSQL_04_00.vtt",
+          "tags": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Active Directory Exploitation",
+      "path": "media/video/AD_00_00.mp4",
+      "caption": "media/captions/AD_00_00.vtt",
+      "tags": [
+        "Active", "Directory", "Exploitation"
+      ],
+      "subModules": [
+        {
+          "title": "AD Object Security Permissions",
+          "path": "media/video/AD_01_00.mp4",
+          "caption": "media/captions/AD_01_00.vtt",
+          "tags": [
+            "AD", "Object", "Security", "Permissions"
+          ],
+          "subSections": [
+            {
+              "title": "Object Permission Theory",
+              "path": "media/video/AD_01_01.mp4",
+              "caption": "media/captions/AD_01_01.vtt",
+              "tags": [
+                "Object", "Permission", "Theory", "DACL", "ACE", "SDDL", "powerview", "Get-ObjectAcl", "ConvertFrom-SID", "GenericAll"
+              ]
+            },
+            {
+              "title": "Abusing GenericAll",
+              "path": "media/video/AD_01_02.mp4",
+              "caption": "media/captions/AD_01_02.vtt",
+              "tags": [
+                "GenericAll", "powerview", "Get-DomainUser", "Get-ObjectAcl", "Get-DomainGroup"
+              ]
+            },
+            {
+              "title": "Abusing WriteDACL",
+              "path": "media/video/AD_01_03.mp4",
+              "caption": "media/captions/AD_01_03.vtt",
+              "tags": [
+                "Get-DomainUser", "WriteDACL", "Get-ObjectAcl", "DCSync", "Add-DomainObjectAcl"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kerberos Delegation",
+          "path": "media/video/AD_02_00.mp4",
+          "caption": "media/captions/AD_02_00.vtt",
+          "tags": [
+            "Kerberos", "Delegation"
+          ],
+          "subSections": [
+            {
+              "title": "Unconstrained Delegation",
+              "path": "media/video/AD_02_01.mp4",
+              "caption": "media/captions/AD_02_01.vtt",
+              "tags": [
+                "Unconstrained", "Delegation", "TGS", "TGT", "KDC", "userAccountControl", "TRUSTED_FOR_DELEGATION", "Get-DomainComputer", "Mimikatz", "forwardable"
+              ]
+            },
+            {
+              "title": "I Am a Domain Controller",
+              "path": "media/video/AD_02_02.mp4",
+              "caption": "media/captions/AD_02_02.vtt",
+              "tags": [
+                "MS-RPRN RPC", "SpoolSample", "spoolss", "RpcRemoteFindFirstPrinterChangeNotification", "RpcOpenPrinter", "Rubeus", "ptt", "krbtgt", "dcsync"
+              ]
+            },
+            {
+              "title": "Constrained Delegation",
+              "path": "media/video/AD_02_03.mp4",
+              "caption": "media/captions/AD_02_03.vtt",
+              "tags": [
+                "Constrained", "Delegation", "S4U2Self", "S4U2Proxy", "msds-allowedtodelegateto", "Get-DomainUser", "TRUSTED_TO_AUTH_FOR_DELEGATION", "useraccountcontrol", "rubeus", "asktgt"
+              ]
+            },
+            {
+              "title": "Resource-Based Constrained Delegation",
+              "path": "media/video/AD_02_04.mp4",
+              "caption": "media/captions/AD_02_04.vtt",
+              "tags": [
+                "Resource-Based", "Constrained", "Delegation", "RBCD", "msDS-AllowedToActOnBehalfOfOtherIdentity", "S4U2Self", "S4U2Proxy", "Get-DomainComputer", "ms-DS-MachineAccountQuota", "Powermad", "New-MachineAccount", "RawSecurityDescriptor", "rubeus"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Active Directory Forest Theory",
+          "path": "media/video/AD_03_00.mp4",
+          "caption": "media/captions/AD_03_00.vtt",
+          "tags": [
+            "Active", "Directory", "Forest", "Theory"
+          ],
+          "subSections": [
+            {
+              "title": "Active Directory Trust in a Forest",
+              "path": "media/video/AD_03_01.mp4",
+              "caption": "media/captions/AD_03_01.vtt",
+              "tags": [
+                "Active", "Directory", "Trust", "Forest"
+              ]
+            },
+            {
+              "title": "Enumeration in the Forest",
+              "path": "media/video/AD_03_02.mp4",
+              "caption": "media/captions/AD_03_02.vtt",
+              "tags": [
+                "Enumeration", "Forest", "nltest", "GetAllTrustRelationships", "DirectoryServices.ActiveDirectory.Domain", "Get-DomainTrust", "TDO"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Burning Down the Forest",
+          "path": "media/video/AD_04_00.mp4",
+          "caption": "media/captions/AD_04_00.vtt",
+          "tags": [
+            "Burning", "Down", "Forest"
+          ],
+          "subSections": [
+            {
+              "title": "Owning the Forest with Extra SIDs",
+              "path": "media/video/AD_04_01.mp4",
+              "caption": "media/captions/AD_04_01.vtt",
+              "tags": [
+                "Owning", "Forest", "extra SIDs", "ExtraSids", "dcsync", "krbtgt", "Mimikatz", "golden ticket"
+              ]
+            },
+            {
+              "title": "Owning the Forest with Printers",
+              "path": "media/video/AD_04_02.mp4",
+              "caption": "media/captions/AD_04_02.vtt",
+              "tags": [
+                "Owning", "Forest", "printers", "RpcRemoteFindFirstPrinterChangeNotification", "Rubeus", "SpoolSample", "forwardable", "TGT", "mimikatz", "dcsync"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Going Beyond the Forest",
+          "path": "media/video/AD_05_00.mp4",
+          "caption": "media/captions/AD_05_00.vtt",
+          "tags": [
+            "beyond", "Forest"
+          ],
+          "subSections": [
+            {
+              "title": "Active Directory Trust Between Forests",
+              "path": "media/video/AD_05_01.mp4",
+              "caption": "media/captions/AD_05_01.vtt",
+              "tags": [
+                "Active", "Directory", "Trust", "Forests"
+              ]
+            },
+            {
+              "title": "Enumeration Beyond the Forest",
+              "path": "media/video/AD_05_02.mp4",
+              "caption": "media/captions/AD_05_02.vtt",
+              "tags": [
+                "Enumeration", "Beyond", "Forest", "Forest.GetAllTrustRelationships", "Get-DomainTrust", "powerview", "Get-DomainTrustMapping", "Get-DomainForeignGroupMember"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Compromising an Additional Forest",
+          "path": "media/video/AD_06_00.mp4",
+          "caption": "media/captions/AD_06_00.vtt",
+          "tags": [
+            "Compromising", "Additional", "Forest"
+          ],
+          "subSections": [
+            {
+              "title": "Show Me Your Extra SID",
+              "path": "media/video/AD_06_01.mp4",
+              "caption": "media/captions/AD_06_01.vtt",
+              "tags": [
+                "Extra", "SID", "SID filtering", "krbtgt", "dcsync", "golden ticket", "Get-DomainSID", "netdom", "TREAT_AS_EXTERNAL", "RID"
+              ]
+            },
+            {
+              "title": "Linked SQL Servers in the Forest",
+              "path": "media/video/AD_06_02.mp4",
+              "caption": "media/captions/AD_06_02.vtt",
+              "tags": [
+                "Linked", "SQL", "Servers", "Forest", "setspn", "sp_linkedservers"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wrapping Up",
+          "path": "media/video/AD_07_00.mp4",
+          "caption": "media/captions/AD_07_00.vtt",
+          "tags": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Combining the Pieces",
+      "path": "media/video/CTP_00_00.mp4",
+      "caption": "media/captions/CTP_00_00.vtt",
+      "tags": [
+        "Combining", "Pieces"
+      ],
+      "subModules": [
+        {
+          "title": "Enumeration and Shell",
+          "path": "media/video/CTP_01_00.mp4",
+          "caption": "media/captions/CTP_01_00.vtt",
+          "tags": [
+            "Enumeration", "Shell"
+          ],
+          "subSections": [
+            {
+              "title": "Initial Enumeration",
+              "path": "media/video/CTP_01_01.mp4",
+              "caption": "media/captions/CTP_01_01.vtt",
+              "tags": [
+                "Initial", "Enumeration", "nmap"
+              ]
+            },
+            {
+              "title": "Gaining an Initial Foothold",
+              "path": "media/video/CTP_01_02.mp4",
+              "caption": "media/captions/CTP_01_02.vtt",
+              "tags": [
+                "Foothold", "aspx", "gobuster", "VirtualAllocExNuma", "GetCurrentProcess", "VirtualAllocExNuma", "Runtime.InteropServices", "Caesar"
+              ]
+            },
+            {
+              "title": "Post Exploitation Enumeration",
+              "path": "media/video/CTP_01_03.mp4",
+              "caption": "media/captions/CTP_01_03.vtt",
+              "tags": [
+                "post Exploitation", "Enumeration", "HostRecon", "RunAsPPL", "amsiContext", "TRUSTED_TO_AUTH_FOR_DELEGATION"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Attacking Delegation",
+          "path": "media/video/CTP_02_00.mp4",
+          "caption": "media/captions/CTP_02_00.vtt",
+          "tags": [
+            "Attacking", "Delegation"
+          ],
+          "subSections": [
+            {
+              "title": "Privilege Escalation on web01",
+              "path": "media/video/CTP_02_01.mp4",
+              "caption": "media/captions/CTP_02_01.vtt",
+              "tags": [
+                "Privilege", "Escalation", "SeImpersonatePrivilege", "PrintSpoofer", "CreateEnvironmentBlock", "GetSystemDirectory", "RevertToSelf", "STARTUPINFO", "CreateProcessWithTokenW"
+              ]
+            },
+            {
+              "title": "Getting the Hash",
+              "path": "media/video/CTP_02_02.mp4",
+              "caption": "media/captions/CTP_02_02.vtt",
+              "tags": [
+                "LSASS", "hash", "Invoke-Mimikatz", "spoolsv", "amsi", "MiniDumpWriteDump"
+              ]
+            },
+            {
+              "title": "Delegate My Ticket",
+              "path": "media/video/CTP_02_03.mp4",
+              "caption": "media/captions/CTP_02_03.vtt",
+              "tags": [
+                "Delegate", "Ticket", "Rubeus", "Reflection.Assembly"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Owning the Domain",
+          "path": "media/video/CTP_03_00.mp4",
+          "caption": "media/captions/CTP_03_00.vtt",
+          "tags": [
+            "Owning", "Domain"
+          ],
+          "subSections": [
+            {
+              "title": "Lateral Movement",
+              "path": "media/video/CTP_03_01.mp4",
+              "caption": "media/captions/CTP_03_01.vtt",
+              "tags": [
+                "Lateral", "Movement", "spoolsv", "SensorService", "MpCmdRun"
+              ]
+            },
+            {
+              "title": "Becoming Domain Admin",
+              "path": "media/video/CTP_03_02.mp4",
+              "caption": "media/captions/CTP_03_02.vtt",
+              "tags": [
+                "Domain", "Admin", "impersonate", "incognito"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wrapping Up",
+          "path": "media/video/CTP_04_00.mp4",
+          "caption": "media/captions/CTP_04_00.vtt",
+          "tags": [
+            ""
+          ]
+        }
+      ]
+    }
+    ]
+}
